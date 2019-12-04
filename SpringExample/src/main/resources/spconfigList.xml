@@ -1,0 +1,16 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+  <bean id="id1" class="List.WelcomeBean">
+ 
+    <property name="studentsData" >
+      <list>
+         <value>java4s</value>
+         <value>sun</value>
+         <value>oracle</value>
+         <value>java4s</value>
+      </list>
+     </property>
+  </bean>  
+</beans>

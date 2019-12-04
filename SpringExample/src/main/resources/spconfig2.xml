@@ -2,9 +2,12 @@
 "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
 <beans>
-<bean id="id1" class="com.mkyong.Divya.WelcomeBean">
+<bean id="id3" class="dependencyobj.Travel">
 
-<property name="message" value="Welcome to spring" />
+<property name="v">
+<ref parent="id2" />
+</property>
 
 </bean>
 </beans>
+ 

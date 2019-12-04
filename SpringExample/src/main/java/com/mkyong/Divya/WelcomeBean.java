@@ -1,4 +1,4 @@
-package com.mkyong.common;
+package com.mkyong.Divya;
 
 public class WelcomeBean {
 	
