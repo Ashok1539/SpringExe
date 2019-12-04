@@ -5,12 +5,12 @@
 <bean id="id1" class="dependencyobj.Car">
 
 <property name="fuelType" value="Diesel" />
-<property name="maxSpeed" value="100" />
+<property name="maxSpeed" value="80" />
 
 </bean>
 
 <bean id="id2" class="dependencyobj.Bus">
-<property name="maxSpeed" value="80" />
+<property name="maxSpeed" value="100" />
 </bean>
 
 </beans>
